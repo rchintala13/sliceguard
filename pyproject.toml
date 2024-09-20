@@ -1,0 +1,14 @@
+[project]
+name = "sliceguard"
+version = "0.1.0"
+description = "Fairness slice auditing with Wilson intervals and BH correction, so a 23-person slice stops manufacturing a crisis."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
